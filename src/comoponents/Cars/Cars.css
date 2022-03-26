@@ -1,0 +1,8 @@
+.main-cars-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+   
+}
+.cars-container{
+    border: 1px solid red;
+}
