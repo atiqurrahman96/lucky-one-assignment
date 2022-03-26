@@ -2,12 +2,12 @@ import React from 'react';
 import './Car.css'
 const Car = (props) => {
     console.log(props.car)
-    const { picture, id } = props.car;
+    const { strImg, id } = props.car;
 
     return (
         <div>
             <div img className='img-container'>
-                <img src={picture} alt="" />
+                <img src={strImg} alt="" />
             </div>
             <div>
                 <p>Id:{id}</p>
