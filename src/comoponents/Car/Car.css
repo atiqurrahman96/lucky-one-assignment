@@ -25,6 +25,10 @@
 .btn-container{
     background-color: aqua;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
 }
 .btn-container button{
     background-color: aqua;
