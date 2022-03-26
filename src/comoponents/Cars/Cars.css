@@ -6,7 +6,7 @@
 }
 
 .cars-container{
-    border: 1px solid red;
+    border: 5px solid white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 background-color: lightcyan;
@@ -14,12 +14,14 @@ background-color: lightcyan;
 }
 
 .summary-container{
-    border: 1px solid red;
+    border: 5px solid whitesmoke;
     margin: 2px;
     padding: 5px;
     background-color: lightsteelblue;
 }
-
+.summary-container:hover{
+    background-color:burlywood;
+}
 
 @media only screen and (min-width : 375px) {
     .cars-container{
@@ -40,13 +42,12 @@ background-color: lightcyan;
     
 }
 .main-paragraph-container{
-    border: 2px solid lightblue;
+    border: 5px solid whitesmoke;
     margin: 5px;
     padding: 10px;
+    background-color:lightcyan;
     
 }
-
-
 
 .paragraph-container-1{
     text-indent: 10px;
