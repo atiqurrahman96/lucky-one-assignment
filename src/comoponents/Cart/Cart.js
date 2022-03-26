@@ -4,15 +4,19 @@ import './Cart.css'
 
 const Cart = (props) => {
     const { cart } = props;
-    console.log(cart)
-
+    const add = () => {
+        console.log('clicked');
+    }
     return (
         <div className='cart-container'>
             <h1>Selected Car</h1>
             <p>Selected items:{cart.length}</p>
             {
-                cart.map(item => <Details detail={item} key={item.id} ></Details>)
+                cart.map(item => <Details detail={item} key={item.a}></Details>)
             }
+            <div>
+                <button onClick={add}>Choose 1 For Me</button>
+            </div>
         </div >
     );
 };

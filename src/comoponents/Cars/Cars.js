@@ -17,7 +17,6 @@ const Cars = () => {
     return (
         <div className='main-cars-container'>
             <div className='cars-container'>
-
                 {
                     cars.map(car => <Car car={car} key={car.id} chooseToCart={chooseToCart}></Car>)
                 }

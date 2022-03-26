@@ -1,7 +1,6 @@
 import React from 'react';
 import './Details.css'
 const Details = (props) => {
-    console.log(props.detail);
     const { strName, strImg } = props.detail;
     return (
         <div className='detail-container'>
