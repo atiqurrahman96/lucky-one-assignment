@@ -39,3 +39,18 @@ background-color: lightcyan;
     }
     
 }
+.main-paragraph-container{
+    border: 2px solid lightblue;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+
+
+.paragraph-container-1{
+    text-indent: 10px;
+}
+.paragraph-container-2 {
+    text-indent: 10px;
+}

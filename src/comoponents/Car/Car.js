@@ -25,7 +25,9 @@ const Car = (props) => {
                     <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
                 </div>
             </div>
+
         </div>
+
     );
 };
 
