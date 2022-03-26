@@ -1,8 +1,10 @@
 import React from 'react';
 import './Car.css'
 const Car = (props) => {
-    console.log(props.car)
+    // console.log(props.car)
+
     const { strImg, id, strPrice } = props.car;
+    const { chooseToCart } = props;
 
     return (
         <div className='single-car-container'>
@@ -14,7 +16,7 @@ const Car = (props) => {
                 <p>Price:${strPrice}</p>
             </div>
             <div className='btn-container'>
-                <button>Choose</button>
+                <button onClick={() => chooseToCart(props.car)} >Choose</button>
             </div>
         </div>
     );
