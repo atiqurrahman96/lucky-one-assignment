@@ -1,0 +1,16 @@
+.detail-img-container img{
+    width: 35px;
+    height: 60px;
+}
+
+.detail-container{
+    display: flex;
+    margin: 2px;
+    margin-left: 2px;
+    gap: 10px;
+}
+.detail-name-container p{
+    color:brown;
+    font-weight: 600;
+
+}

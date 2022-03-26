@@ -11,7 +11,7 @@ const Car = (props) => {
             <div className='img-container'>
                 <img src={strImg} alt="" />
             </div>
-            <div>
+            <div className='single-car-detail'>
                 <p>Id:{id}</p>
                 <p>Price:${strPrice}</p>
             </div>

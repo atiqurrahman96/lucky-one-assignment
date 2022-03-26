@@ -4,13 +4,15 @@ import Cart from '../Cart/Cart';
 import './Cars.css'
 const Cars = () => {
     const [cars, setCars] = useState([]);
+    const [cart, setCart] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setCars(data))
     }, []);
     const chooseToCart = (car) => {
-        console.log(car, 'hi bro')
+        const newCart = [...cart, car];
+        setCart(newCart);
     }
     return (
         <div className='main-cars-container'>
@@ -21,7 +23,7 @@ const Cars = () => {
                 }
             </div>
             <div className='summary-container'>
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

@@ -4,6 +4,10 @@
     border-radius: 5px;
    
 }
+.single-car-detail{
+    color: black;
+    font-weight: 700;
+}
 .img-container img{
     width: 200px;
     height: 250px;
