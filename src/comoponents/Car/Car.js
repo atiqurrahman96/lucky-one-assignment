@@ -13,7 +13,9 @@ const Car = (props) => {
                 <p>Id:{id}</p>
                 <p>Price:${strPrice}</p>
             </div>
-
+            <div className='btn-container'>
+                <button>Choose</button>
+            </div>
         </div>
     );
 };
