@@ -11,9 +11,9 @@ const Cars = () => {
     return (
         <div className='main-cars-container'>
             <div className='cars-container'>
-                <h1>this is cars</h1>
+
                 {
-                    cars.map(car => <Car car={car}></Car>)
+                    cars.map(car => <Car car={car} key={car.id}></Car>)
                 }
             </div>
             <div>

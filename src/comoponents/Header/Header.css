@@ -7,3 +7,9 @@
 .nav-container:hover{
     background-color: burlywood;
 }
+@media only screen and (max-width : 375px) {
+    .nav-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
